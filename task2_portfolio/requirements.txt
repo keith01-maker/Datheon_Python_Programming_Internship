@@ -1,0 +1,3 @@
+# Optional: enables live stock prices from Yahoo Finance.
+# Without it, the program still works and asks for prices manually.
+yfinance
