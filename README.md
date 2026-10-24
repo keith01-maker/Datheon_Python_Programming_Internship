@@ -8,7 +8,7 @@ A collection of Python projects built during the Datheon Python Programming Inte
 |---|---|---|---|
 | 1 | [Hangman Game](task1_hangman/) | Terminal word-guessing game with ASCII gallows art, guessed-letter tracking and no penalty for repeated guesses | Done |
 | 2 | [Stock Portfolio Tracker](task2_portfolio/) | Portfolio tracker with live prices (yfinance, with manual fallback), gain/loss per holding and a CSV performance log | Done |
-| 3 | File Organizer | Automation script that sorts files into category folders by extension, handling naming collisions and permission errors | In progress |
+| 3 | [File Organizer](task3_organizer/) | Command-line script that sorts files into category folders by extension, with collision-safe moves, a dry-run mode and logging | Done |
 | 4 | Support Chatbot | Rule-based customer support chatbot using keywords, regular expressions and a JSON FAQ dataset | In progress |
 
 ## Requirements
@@ -29,6 +29,8 @@ From the root of this repository:
 ```bash
 python task1_hangman/hangman.py
 python task2_portfolio/portfolio.py
+python task3_organizer/create_test_folder.py
+python task3_organizer/organizer.py task3_organizer/test_downloads --dry-run
 ```
 
 See each project's README for details.
@@ -43,11 +45,15 @@ Datheon_Python_Programming_Internship/
 │   ├── hangman.py
 │   ├── google-10000-english-no-swears.txt
 │   └── README.md
-└── task2_portfolio/
-    ├── portfolio.py
-    ├── constituents.csv
-    ├── portfolio_summary.csv
-    ├── requirements.txt
+├── task2_portfolio/
+│   ├── portfolio.py
+│   ├── constituents.csv
+│   ├── portfolio_summary.csv
+│   ├── requirements.txt
+│   └── README.md
+└── task3_organizer/
+    ├── organizer.py
+    ├── create_test_folder.py
     └── README.md
 ```
 

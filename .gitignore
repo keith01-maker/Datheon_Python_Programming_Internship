@@ -6,3 +6,9 @@ __pycache__/
 .vscode/
 Thumbs.db
 .DS_Store
+
+# Task 3: generated test folder (recreate it with create_test_folder.py)
+task3_organizer/test_downloads/
+
+# Task 3: log file written by organizer.py
+task3_organizer/organizer.log
